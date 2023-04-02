@@ -1,4 +1,10 @@
-# Next.js + Tailwind CSS + TypeScript Starter and Boilerplate
+# Music teacher portfolio website
+
+Website is started with [ts-nextjs-tailwind-starter](https://github.com/theodorusclarence/ts-nextjs-tailwind-starter) and inspired by [leerob.io](https://github.com/leerob/leerob.io).
+
+Blur face tool: https://www4.lunapic.com/editor/?action=face-blur   
+
+## Next.js + Tailwind CSS + TypeScript Starter and Boilerplate
 
 <div align="center">
   <h2>🔋 ts-nextjs-tailwind-starter</h2>
