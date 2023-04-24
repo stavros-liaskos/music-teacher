@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import PianoPic from 'public/images/piano.png';
+import TeacherPic from 'public/images/teacher.png';
 import * as React from 'react';
 
 import { EmailIcon, PhoneIcon } from '@/components/Icons';
@@ -13,11 +13,11 @@ export default function Info() {
 
       <div className='my-8 flex flex-col items-start md:flex-row md:items-center'>
         <Image
-          src={PianoPic}
-          className='rounded-full grayscale'
+          src={TeacherPic}
+          className='rounded-full'
           alt='piano-oil-canvas'
-          width={100}
-          height={100}
+          width={300}
+          height={300}
           placeholder='blur'
           priority
         />
