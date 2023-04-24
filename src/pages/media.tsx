@@ -1,5 +1,7 @@
 import Image from 'next/image';
-import PianoPic from 'public/images/piano.png';
+import Art1Pic from 'public/images/art1.jpg';
+import Art2Pic from 'public/images/art2.png';
+import Art3Pic from 'public/images/art3.png';
 import * as React from 'react';
 
 import Layout from '@/components/layout/Layout';
@@ -20,9 +22,9 @@ export default function HomePage() {
       <section>
         <h2 className='mb-8 pb-4 font-serif text-3xl font-bold'>Δράσεις</h2>
 
-        <div className='flex justify-center gap-8 pb-16'>
+        <div className='flex flex-col justify-center gap-8 pb-16 md:flex-row'>
           <Image
-            src={PianoPic}
+            src={Art1Pic}
             className=''
             alt='piano-oil-canvas'
             width={300}
@@ -42,9 +44,31 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div className='flex flex-row-reverse justify-center gap-8 pb-16'>
+        <div className='flex flex-col justify-center gap-8 pb-16 md:flex-row-reverse'>
           <Image
-            src={PianoPic}
+            src={Art2Pic}
+            className=''
+            alt='piano-oil-canvas'
+            width={300}
+            height={300}
+            placeholder='blur'
+            priority
+          />
+          <div className='flex flex-col justify-center gap-4'>
+            <p className='flex items-center'>
+              εδω γινεται αυτο και αυτο, εδω γινεται αυτο και αυτο, εδω γινεται
+              αυτο και αυτο, εδω γινεται αυτο και αυτο, εδω γινεται αυτο και
+              αυτο, εδω γινεται αυτο και αυτο, εδω γινεται αυτο και αυτο, εδω
+              γινεται αυτο και αυτο, εδω γινεται αυτο και αυτο, εδω γινεται αυτο
+              και αυτο,
+            </p>
+            <span className='flex justify-end'>12.03.2022</span>
+          </div>
+        </div>
+
+        <div className='flex flex-col justify-center gap-8 pb-16 md:flex-row'>
+          <Image
+            src={Art3Pic}
             className=''
             alt='piano-oil-canvas'
             width={300}
