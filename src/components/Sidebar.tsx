@@ -4,19 +4,19 @@ import { usePathname } from 'next/navigation';
 
 const navItems = {
   '/': {
-    name: 'home',
+    name: 'Aρχική',
   },
   '/about': {
-    name: 'about',
+    name: 'Προφίλ',
   },
   '/carrier': {
-    name: 'carrier',
+    name: 'Εργασία',
   },
   '/studies': {
-    name: 'studies',
+    name: 'Εκπαιδεύσεις',
   },
   '/media': {
-    name: 'media',
+    name: 'Δράσεις',
   },
 };
 
@@ -28,11 +28,11 @@ export default function Sidebar() {
       <div className='lg:sticky lg:top-20'>
         <LayoutGroup>
           <nav
-            className='fade relative flex scroll-pr-6 flex-row items-start px-4 pb-0 md:relative md:flex-col md:overflow-auto md:px-0'
+            className='fade relative flex flex-row md:relative md:flex-col md:overflow-auto md:px-0'
             id='nav'
           >
-            <div className='mb-2 mt-2 flex flex-row space-x-0 pr-10 md:mt-0 md:flex-col'>
-              {Object.entries(navItems).map(([path, { name }]) => {
+            <div className='mb-2 flex flex-row md:flex-col'>
+              {Object.entries(navItems).map(([path, { name }], index) => {
                 const isActive = path === pathname;
                 return (
                   <Link
@@ -41,7 +41,11 @@ export default function Sidebar() {
                     className={`flex align-middle transition-all hover:text-neutral-800 
                     ${!isActive ? 'text-neutral-500' : 'font-bold'}`}
                   >
-                    <span className='relative px-[10px] py-[5px]'>
+                    <span
+                      className={`relative md:px-[10px] ${
+                        index === 4 ? 'pl-2' : 'px-2'
+                      } py-[5px]`}
+                    >
                       {name}
                       {path === pathname ? (
                         <motion.div
