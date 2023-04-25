@@ -6,6 +6,9 @@ const navItems = {
   '/': {
     name: 'Aρχική',
   },
+  '/media': {
+    name: 'Δράσεις',
+  },
   '/about': {
     name: 'Προφίλ',
   },
@@ -14,9 +17,6 @@ const navItems = {
   },
   '/studies': {
     name: 'Εκπαιδεύσεις',
-  },
-  '/media': {
-    name: 'Δράσεις',
   },
 };
 

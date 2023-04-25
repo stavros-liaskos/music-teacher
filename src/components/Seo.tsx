@@ -7,14 +7,14 @@ const defaultMeta = {
   siteName: 'Ευγενία Πωλαναγνώστακη',
   description: 'Kinetic music and piano teacher',
   /** Without additional '/' on the end, e.g. https://theodorusclarence.com */
-  url: 'https://tsnext-tw.thcl.dev', // TODO
+  url: 'https://music-teacher-two.vercel.app', // TODO
   type: 'website',
   robots: 'follow, index',
   /**
    * No need to be filled, will be populated with openGraph function
    * If you wish to use a normal image, just specify the path below
    */
-  image: 'https://tsnext-tw.thcl.dev/images/large-og.png', // TODO
+  image: 'https://tsnext-tw.thcl.dev/images/teacher.png', // TODO decide a large og 1200x630 ideally
 };
 
 type SeoProps = {
