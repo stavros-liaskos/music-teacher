@@ -1,8 +1,13 @@
 import Image from 'next/image';
-import PianoPic from 'public/images/piano.png';
+import TeacherPic from 'public/images/teacher.png';
 import * as React from 'react';
 
-import { EmailIcon, PhoneIcon } from '@/components/Icons';
+import {
+  EmailIcon,
+  PhoneIcon,
+  ViberIcon,
+  WhatsAppIcon,
+} from '@/components/Icons';
 export default function Info() {
   return (
     <div>
@@ -13,27 +18,29 @@ export default function Info() {
 
       <div className='my-8 flex flex-col items-start md:flex-row md:items-center'>
         <Image
-          src={PianoPic}
-          className='rounded-full grayscale'
+          src={TeacherPic}
+          className='rounded-full'
           alt='piano-oil-canvas'
-          width={100}
-          height={100}
+          width={300}
+          height={300}
           placeholder='blur'
           priority
         />
         <div className='ml-0 mt-8 space-y-2 text-neutral-400 text-neutral-500 md:ml-6 md:mt-0'>
           <a
-            href='tel:+00313311341'
+            href='tel:6997196900'
             className='ml-[-2px] flex items-center gap-2'
           >
-            <PhoneIcon /> 697123123123
+            <PhoneIcon />
+            <WhatsAppIcon />
+            <ViberIcon /> 697123123123
           </a>
           <a
-            href='mailto:evgenia@piano.gr'
+            href='mailto:evgenia.polanagnostaki@gmail.com'
             className='flex items-center gap-2'
             target='_blank'
           >
-            <EmailIcon /> evgenia@piano.gr
+            <EmailIcon /> evgenia.polanagnostaki@gmail.com
           </a>
         </div>
       </div>

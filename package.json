@@ -1,5 +1,5 @@
 {
-  "name": "music-teacher",
+  "name": "pianokinisis",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -24,6 +24,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
+    "react-responsive-carousel": "^3.2.23",
     "tailwind-merge": "^1.10.0"
   },
   "devDependencies": {
