@@ -7,7 +7,7 @@ const defaultMeta = {
   siteName: 'Ευγενία Πωλαναγνώστακη',
   description: 'Kinetic music and piano teacher',
   /** Without additional '/' on the end, e.g. https://theodorusclarence.com */
-  url: 'https://music-teacher-two.vercel.app', // TODO
+  url: 'https://pianokinisis.vercel.app/', // TODO
   type: 'website',
   robots: 'follow, index',
   /**
