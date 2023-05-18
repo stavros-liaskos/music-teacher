@@ -19,7 +19,7 @@ export default function HomePage() {
       {/* <Seo templateTitle='Home' /> */}
       <Seo />
       <section>
-        <h1 className='font-serif text-3xl font-bold'>About Me</h1>
+        <h1 className='font-serif text-3xl font-bold'>Προφίλ</h1>
         <p className='my-5 text-neutral-200 text-neutral-800'>
           Η Ευγενία Πωλαναγνωστάκη γεννήθηκε και μεγάλωσε Θεσσαλονίκη. Έπαιξε
           πρώτη φορά πιάνο σε ηλικία 5 ετών και ήταν τότε που ξεκίνησε τις

@@ -21,7 +21,7 @@ export default function HomePage() {
           Επαγγελματική εμπειρία
         </h2>
 
-        <Paragraph title='<span>2022 έως σήμερα</span>'>
+        <Paragraph title='<span>2022-σήμερα</span>'>
           <span>
             Μουσικοκινητική αγωγή σε παιδιά 7-8 ετών. <br />
             Συνεργασία με το Πρότυπο Ωδείο Ανατολικής Αττικής στην Αγία
@@ -29,21 +29,21 @@ export default function HomePage() {
           </span>
         </Paragraph>
 
-        <Paragraph title='<span>2021 έως σήμερα</span>'>
+        <Paragraph title='<span>2021-σήμερα</span>'>
           <span>
             Μουσικοκινητική Αγωγή σε παιδιά από 2-4 ετών. <br />
             Συνεργασία με τον παιδικό σταθμό της Αεροπορίας.
           </span>
         </Paragraph>
 
-        <Paragraph title='<span>2018 έως σήμερα</span>'>
+        <Paragraph title='<span>2018-σήμερα</span>'>
           <span>
             Μουσικοκινητική αγωγή σε παιδιά 18-24 μηνών. <br />
             Συνεργασία με το Κλασσικό Ωδείο Χολαργού.
           </span>
         </Paragraph>
 
-        <Paragraph title='<span>2015 έως σήμερα</span>'>
+        <Paragraph title='<span>2015-σήμερα</span>'>
           <span>Ιδιαίτερα μαθήματα κλασσικού πιάνου</span>
         </Paragraph>
 
@@ -92,7 +92,7 @@ export default function HomePage() {
 
         <Paragraph title='<span>1999-2002</span>'>
           <span>
-            Ομαδάρχισσα και Ειδικό στέλεχος Μουσικής (μουσικοκινητικά παιχνίδια,
+            Ομαδάρχης και Ειδικό στέλεχος Μουσικής (μουσικοκινητικά παιχνίδια,
             ομαδικό τραγούδι) στις παιδικές κατασκηνώσεις (Τ.Υ.Π.Ε.Τ.)
           </span>
         </Paragraph>

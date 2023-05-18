@@ -13,7 +13,7 @@ export default function Info() {
     <div>
       <h1 className='font-serif text-3xl font-bold'>Eυγενία Πωλαναγνωστάκη</h1>
       <p className='my-5 max-w-[460px] text-neutral-800'>
-        Μουσικοπαιδαγωγός - Πτυχιούχος Πιάνου
+        Μουσικοπαιδαγωγός - Καθηγήτρια Πιάνου
       </p>
 
       <div className='my-8 flex flex-col items-start md:flex-row md:items-center'>
@@ -36,11 +36,11 @@ export default function Info() {
             <ViberIcon /> 697123123123
           </a>
           <a
-            href='mailto:evgenia.polanagnostaki@gmail.com'
+            href='mailto:evgenia_polanagnostaki@yahoo.gr'
             className='flex items-center gap-2'
             target='_blank'
           >
-            <EmailIcon /> evgenia.polanagnostaki@gmail.com
+            <EmailIcon /> evgenia_polanagnostaki@yahoo.gr
           </a>
         </div>
       </div>

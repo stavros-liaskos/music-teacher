@@ -15,7 +15,7 @@ const Paragraph = ({
       gap ? 'gap-x-10' : ''
     }`}
   >
-    <span className='min-w-[130px] font-bold md:font-normal'>
+    <span className='min-w-[105px] font-bold md:font-normal'>
       <span dangerouslySetInnerHTML={{ __html: title }} />
     </span>
 
