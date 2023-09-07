@@ -109,7 +109,7 @@ export default function HomePage() {
           </Carousel>
           <div className='flex flex-col justify-center gap-4'>
             <p className='flex items-center'>
-              Συμμετοχή σε εργαστήρια και σε οργχήστρα Orff.
+              Συμμετοχή σε εργαστήρια και σε ορχήστρα Orff.
             </p>
           </div>
         </div>
